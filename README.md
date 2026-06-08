@@ -1,2 +1,1 @@
-# Grocify
-This is a React + Tailwand CSS Multipage Website Project Getting started with it ...
+## Grocify 
