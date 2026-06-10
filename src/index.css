@@ -8,3 +8,28 @@ body {
     font-style: normal;
     background: #fffaf5;
 }
+
+.active{
+    color: rgb(255, 136, 0);
+}
+
+@media (max-width: 1000px) {
+    .searchbar{
+        display: none;
+    }
+    .menu-bar{
+        gap: 40px;
+        margin-top: 5px;
+        font-size: 1.2em;
+    }
+}
+@media (max-width:600px) {
+    .icon-menu{
+        display:block
+        
+    }
+    .menu-bar{
+        display: none;
+    }
+    
+}
