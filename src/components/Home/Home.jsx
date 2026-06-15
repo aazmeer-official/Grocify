@@ -1,6 +1,8 @@
 import MainBar from '../Bar/MainBar'
 import Cards from '../Cards/Cards'
 import Hero from '../Hero/Hero'
+import Products from '../Products/Products'
+
 import Heading from "../utils/Heading"
 import ValuesSection from '../ValuesSection/ValuesSection'
 const Home = () => {
@@ -12,7 +14,9 @@ const Home = () => {
         <Cards />
         <Heading orangePart="Our " blackPart="Va" underlinedPart="lues"/>
         <ValuesSection></ValuesSection>
-        <div className='h-100'></div>
+        <Heading orangePart="Our " blackPart="Pr" underlinedPart="oducts"/>
+        <Products />
+
     </div>
   )
 }

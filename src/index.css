@@ -9,6 +9,10 @@ body {
     background: #fffaf5;
 }
 
+card-color-product{
+    background-color: #b9b8b8 !important;
+}
+
 .active{
     color: rgb(255, 136, 0);
 }
