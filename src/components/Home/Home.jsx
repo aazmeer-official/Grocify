@@ -1,4 +1,4 @@
-import MainBar from '../Bar/MainBar'
+
 import Cards from '../Cards/Cards'
 import Hero from '../Hero/Hero'
 import Products from '../Products/Products'
@@ -8,7 +8,7 @@ import ValuesSection from '../ValuesSection/ValuesSection'
 const Home = () => {
   return (
     <div>
-        <MainBar />
+
         <Hero />
         <Heading orangePart="Shop " blackPart="by Cat" underlinedPart="agory"/>
         <Cards />

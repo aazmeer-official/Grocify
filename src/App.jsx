@@ -1,11 +1,13 @@
-import Home from './components/Home/Home'
 
-
+import Router from '../routes/Router'
+import EasyMenu from "../src/components/MenuMotivation/EasyMenu"
 
 const App = () => {
   return (
     <div>
-      <Home />
+      <EasyMenu />
+      <Router />
+
     </div>
   )
 }

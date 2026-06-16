@@ -88,6 +88,7 @@ const EasyMenu = () => {
             {link.label}
           </NavLink>
         ))}
+        
       </div>
     </header>
   )
