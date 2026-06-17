@@ -1,8 +1,9 @@
-import HeroImage from "./HeroImage"
 
-const LeftHero = () => {
+const LeftHero = ({imageComponent}) => {
   return (
-    <div><HeroImage /></div>
+    <div>
+      <img src={imageComponent} alt="" className='w-2xl -mt-10'/>
+    </div>
   )
 }
 

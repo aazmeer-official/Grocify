@@ -7,7 +7,7 @@ import Heading from "../utils/Heading"
 import ValuesSection from '../ValuesSection/ValuesSection'
 const Home = () => {
   return (
-    <div>
+    <div className='container'>
 
         <Hero />
         <Heading orangePart="Shop " blackPart="by Cat" underlinedPart="agory"/>

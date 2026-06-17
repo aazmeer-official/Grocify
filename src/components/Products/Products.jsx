@@ -21,7 +21,7 @@ const Products = () => {
         <div className='w-100 lg:w-1/5'><ProductCard image={Salmon} title="Salmon" price="$7.99"/></div>
         <div className='w-100 lg:w-1/5'><ProductCard image={Tilapia} title="Tilapia" price="$8.99"/></div>
     </div>
-        <div className='mt-5 flex justify-center mb-5'>
+        <div className='mt-10 flex justify-center mb-5'>
         <ButtonMain text="View All Products" to="/products"/>
         </div>
     </div>
