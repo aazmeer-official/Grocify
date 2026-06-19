@@ -6,7 +6,9 @@ const Product = () => {
   return (
     <div>
         <UtilityPage orangePart="Shop " blackPart="All"/>
+        <div className='flex justify-center ml-25'>
         <Products />
+        </div>
     </div>
   )
 }

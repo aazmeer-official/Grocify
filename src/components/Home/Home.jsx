@@ -15,8 +15,9 @@ const Home = () => {
         <Heading orangePart="Our " blackPart="Va" underlinedPart="lues"/>
         <ValuesSection></ValuesSection>
         <Heading orangePart="Our " blackPart="Pr" underlinedPart="oducts"/>
+        <div className='pl-10'>
         <Products />
-
+        </div>
     </div>
   )
 }
