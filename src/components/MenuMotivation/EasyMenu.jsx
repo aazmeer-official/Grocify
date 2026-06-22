@@ -11,7 +11,8 @@ const links = [
   { label: 'Contact', to: '/contact' },
   { label : 'Login', to: '/login'},
   { label : 'SignUp', to:'/signup'},
-  {label : 'Cart', to: "/cart"}
+  {label : 'Cart', to: "/cart"},
+  {label:'User Panel', to: "/user/panel"}
 ]
 
 const linkClass = ({ isActive }) =>

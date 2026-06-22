@@ -7,6 +7,7 @@ import Contact from '../src/components/Contact/Contact';
 import Login from '../src/components/Login/Login';
 import SignUp from '../src/components/SignUp/SignUp';
 import Cart from '../src/components/Cart/Cart';
+import UserPanel from '../src/components/UserPanel/UserPanel';
 const Router = () => {
   return (
     <div>
@@ -19,6 +20,7 @@ const Router = () => {
     <Route path="/login" element={<Login />}/>
     <Route path="/signup" element={<SignUp />}/>
     <Route path="/cart" element={<Cart />}/>
+    <Route path="/user/panel" element={<UserPanel />}/>
     </Routes>
 
     </div>
