@@ -8,10 +8,10 @@ const MainDashboard = () => {
     <div >
         
         <div className='flex min-h-lvh'>
-        <div className=' w-1/5'>
+        <div className=' w-1/5 border-solid border-gray-200 border-r-5'>
         <VerticalMenu />
         </div>
-        <div className='rightside bg-orange-400 w-full '>Right</div>
+        <div className='rightside w-full '>Right</div>
         </div>
     </div>
   )
